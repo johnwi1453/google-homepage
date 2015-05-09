@@ -1,0 +1,127 @@
+/* Stylesheet for google-homepage project */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	width: 100%;
+	height: 30px;
+	float: right;
+}
+
+.header a {
+	float: right;
+}
+
+a {
+	color: #404040;
+	text-decoration: none;
+	font-size: medium;
+	font-family: Arial, sans-serif;
+	padding: 5px 8px 5px 8px;
+	display: inline;
+	list-style-type: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.mid-section {
+	text-align: center;
+	padding-top: 120px;
+}
+
+.icon {
+	border-radius: 100%;
+	margin-right: 18px;
+	background-image: urL("/images/google-user-icon.png");
+}
+
+.google-plus {
+	border-radius: 100%;
+	margin-right: 18px;
+	background-image: url("/images/google-plus-icon.png")
+}
+
+.apps {
+	border-radius: 100%;
+	margin-right: 18px;
+	background-image: url("/images/google-apps-icon.png")
+}
+
+.logo {
+padding-top: 120px;
+}
+
+.search-field {
+  background-image: url("/images/mic-icon.gif");
+  background-repeat: no-repeat;
+  background-position: 99% 50%;
+  background-size: 14px 19px;
+  position: relative;
+  top: 17px;
+  right: -5px;
+  height: 28px;
+  width: 620px;
+}
+
+.button-container {
+  width: 100px;
+  height: 28px;
+  display: inline;
+}
+
+button {
+  height: 20px;
+  width: 125px;
+  background-clip: padding-box;
+  background-color: LightGrey;
+  border: 2px solid transparent;
+  border-radius: 5x;
+  margin-left: 5px;
+  margin-top: 35px;
+  text-align: center;
+  border-color: LightSlateGrey;
+  font-size: 11px;
+}
+
+.subtext-container{
+  text-align: center;
+  padding-top: 20px;
+}
+
+#subtext {
+  color: blue;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #f2f2f2;
+  line-height: 43px;
+}
+
+.footer-left {
+  float: left;
+  margin-left: 32px;
+}
+
+.footer-left a {
+  padding-left: 30px;
+}
+
+.footer-right {
+  margin-right: 5px;
+  float: right;
+}
+
+.footer-right a {
+  padding-right: 5px;
+}
