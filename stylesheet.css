@@ -1,54 +1,58 @@
 /* Stylesheet for google-homepage project */
 * {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .header {
-	width: 100%;
-	height: 30px;
-	float: right;
+  width: 100%;
+  height: 30px;
+  float: right;
 }
 
 .header a {
-	float: right;
+  float: right;
 }
 
 a {
-	color: #404040;
-	text-decoration: none;
-	font-size: medium;
-	font-family: Arial, sans-serif;
-	padding: 5px 8px 5px 8px;
-	display: inline;
-	list-style-type: none;
+  color: #404040;
+  text-decoration: none;
+  font-size: medium;
+  font-family: Arial, sans-serif;
+  padding: 5px 8px 5px 8px;
+  display: inline;
+  list-style-type: none;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .mid-section {
-	text-align: center;
-	padding-top: 120px;
+  text-align: center;
+  padding-top: 120px;
 }
 
 .icon {
-	border-radius: 100%;
-	margin-right: 18px;
-	background-image: urL("/images/google-user-icon.png");
+  border-radius: 100%;
+  margin-right: 18px;
+}
+
+.icon-image {
+  border: 1px solid;
+  border-radius: 17px;
 }
 
 .google-plus {
-	border-radius: 100%;
-	margin-right: 18px;
-	background-image: url("/images/google-plus-icon.png")
+  border-radius: 100%;
+  margin-right: 18px;
+  background-image: url("/images/google-plus-icon.png")
 }
 
 .apps {
-	border-radius: 100%;
-	margin-right: 18px;
-	background-image: url("/images/google-apps-icon.png")
+  border-radius: 100%;
+  margin-right: 18px;
+  background-image: url("/images/google-apps-icon.png")
 }
 
 .logo {
@@ -118,10 +122,10 @@ button {
 }
 
 .footer-right {
-  margin-right: 5px;
   float: right;
+  padding-right: 30px;
 }
 
 .footer-right a {
-  padding-right: 5px;
+  padding-right: 30px;
 }
